@@ -1,3 +1,42 @@
+/*
+  Style rules:
+    Use an underscore to separate words in a name.
+    Meaningful names for functions.  Use verb phrases.
+    Meaningful named constants for all magic numbers.  Use ALL_CAPS noun phrases.
+    Meaningful variable names (but  k  for loop variables).  Use noun phrases.
+    A single blank lines to separate sections of code (including function definitions).
+      No blank lines within a function.
+    A single space after every comma.
+    A single space after IF, WHILE, FOR.
+    Prototypes for every function (except main).
+    Functions are ordinarily less than 15 lines of code.
+    {
+      Use this curly brace style.
+    }
+    Indent per the INDENT button in the KIPR IDE.
+    Prototypes and #defines ordered in a sensible way, e.g.:
+      main,
+      sub-functions of main
+      movement functions
+      claw functions
+      other functions.
+    Use the same ordering for function definitions as you used for prototypes.
+*/
+
+/*
+  main function for the Lego robot, Botball 2013.
+  Authors include: PUT_YOUR_NAMES_HERE.
+*/
+
+/*
+  TODO:
+  1. Fix all to obey style rules.  Compile frequently as you do so.
+  2. Divide  main  into sub-functions that themselves are < 15 lines of code.
+  3. Add speed parameter to turn functions.
+  4. Test, test test (on the actual board).
+  5. Probably need to have a claw position and code for going over the bump.
+*/
+
 #include <kipr/wombat.h>
 #define OPEN 2000
 #define DOWN 2000
