@@ -1,3 +1,8 @@
+/*
+ Authors: Connor and Obi.
+ */
+
+
 #include <kipr/wombat.h>
 #include <math.h>
 void move(float inches_wanted, int left_speed, int right_speed, float multiplier);
