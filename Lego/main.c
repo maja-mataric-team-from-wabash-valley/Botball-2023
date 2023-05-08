@@ -25,7 +25,7 @@
 
 /*
   main function for the Lego robot, Botball 2013.
-  Authors include: PUT_YOUR_NAMES_HERE.
+  Authors include: Mathew, Nilafer and Mandeba.
 */
 
 /*
